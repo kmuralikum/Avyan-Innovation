@@ -1,0 +1,23 @@
+{
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/about": "pages/about.html",
+  "/api/hello": "pages/api/hello.js",
+  "/blog-details": "pages/blog-details.html",
+  "/blog-list": "pages/blog-list.html",
+  "/contact": "pages/contact.html",
+  "/destination-details": "pages/destination-details.html",
+  "/destination": "pages/destination.html",
+  "/events": "pages/events.html",
+  "/gallery": "pages/gallery.html",
+  "/index-2": "pages/index-2.html",
+  "/index-3": "pages/index-3.html",
+  "/index-4": "pages/index-4.html",
+  "/": "pages/index.html",
+  "/product-details": "pages/product-details.html",
+  "/shop": "pages/shop.html",
+  "/tour-details": "pages/tour-details.html",
+  "/tour": "pages/tour.html",
+  "/_error": "pages/_error.js",
+  "/404": "pages/404.html"
+}
