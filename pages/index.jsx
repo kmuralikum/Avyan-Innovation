@@ -422,140 +422,7 @@ const Index2 = () => {
               </div>
             </div>
           </div>
-          {/*=== Service Slider One ===*/}
-          <Slider
-            {...sliderActive4Item}
-            className="slider-active-4-item wow fadeInUp"
-          >
-            {/*=== Single Service Item ===*/}
-            <div className="single-service-item-two">
-              <div
-                className="hover-bg bg_cover"
-                style={{
-                  backgroundImage: "url(assets/images/service/hover-bg.jpg)",
-                }}
-              />
-              <div className="content">
-                <div className="icon">
-                  <i className="flaticon-camping" />
-                </div>
-                <h3 className="title">
-                  <a href="#">Tent Camping</a>
-                </h3>
-                <p>
-                  Sit amet consectetur integer tincidunt nodalesry volutpat
-                  neque ferme malesua da sceleris quecy massa lacus
-                </p>
-                <a href="#" className="btn-link">
-                  Read More <i className="far fa-long-arrow-right" />
-                </a>
-              </div>
-            </div>
-            {/*=== Single Service Item ===*/}
-            <div className="single-service-item-two">
-              <div
-                className="hover-bg bg_cover"
-                style={{
-                  backgroundImage: "url(assets/images/service/hover-bg.jpg)",
-                }}
-              />
-              <div className="content">
-                <div className="icon">
-                  <i className="flaticon-cable-car" />
-                </div>
-                <h3 className="title">
-                  <a href="#">Glamping Cabin</a>
-                </h3>
-                <p>
-                  Sit amet consectetur integer tincidunt nodalesry volutpat
-                  neque ferme malesua da sceleris quecy massa lacus
-                </p>
-                <a href="#" className="btn-link">
-                  Read More <i className="far fa-long-arrow-right" />
-                </a>
-              </div>
-            </div>
-            {/*=== Single Service Item ===*/}
-            <div className="single-service-item-two">
-              <div
-                className="hover-bg bg_cover"
-                style={{
-                  backgroundImage: "url(assets/images/service/hover-bg.jpg)",
-                }}
-              />
-              <div className="content">
-                <div className="icon">
-                  <i className="flaticon-trailer" />
-                </div>
-                <h3 className="title">
-                  <a href="#">RV Caravan Trailers</a>
-                </h3>
-                <p>
-                  Sit amet consectetur integer tincidunt nodalesry volutpat
-                  neque ferme malesua da sceleris quecy massa lacus
-                </p>
-                <a href="#" className="btn-link">
-                  Read More <i className="far fa-long-arrow-right" />
-                </a>
-              </div>
-            </div>
-            {/*=== Single Service Item ===*/}
-            <div className="single-service-item-two">
-              <div
-                className="hover-bg bg_cover"
-                style={{
-                  backgroundImage: "url(assets/images/service/hover-bg.jpg)",
-                }}
-              />
-              <div className="content">
-                <div className="icon">
-                  <i className="flaticon-firewood" />
-                </div>
-                <h3 className="title">
-                  <a href="#">Woodfire &amp; BBQ Party</a>
-                </h3>
-                <p>
-                  Sit amet consectetur integer tincidunt nodalesry volutpat
-                  neque ferme malesua da sceleris quecy massa lacus
-                </p>
-                <a href="#" className="btn-link">
-                  Read More <i className="far fa-long-arrow-right" />
-                </a>
-              </div>
-            </div>
-            {/*=== Single Service Item ===*/}
-            <div className="single-service-item-two">
-              <div
-                className="hover-bg bg_cover"
-                style={{
-                  backgroundImage: "url(assets/images/service/hover-bg.jpg)",
-                }}
-              />
-              <div className="content">
-                <div className="icon">
-                  <i className="flaticon-cable-car" />
-                </div>
-                <h3 className="title">
-                  <a href="#">Glamping Cabin</a>
-                </h3>
-                <p>
-                  Sit amet consectetur integer tincidunt nodalesry volutpat
-                  neque ferme malesua da sceleris quecy massa lacus
-                </p>
-                <a href="#" className="btn-link">
-                  Read More <i className="far fa-long-arrow-right" />
-                </a>
-              </div>
-            </div>
-          </Slider>
-        </div>
-      </section>
-      <br />
-      <br />
-      <br />
-      {/*====== End Services Section ======*/}
-      {/*====== Start Activity Section ======*/}
-      <section className="activity-section pb-60">
+          <section className="activity-section pb-60">
         <div className="container-fluid">
           {/*=== Slider Active Item ===*/}
           <Slider
@@ -700,6 +567,11 @@ const Index2 = () => {
           </Slider>
         </div>
       </section>
+        </div>
+      </section>
+      {/*====== End Services Section ======*/}
+      {/*====== Start Activity Section ======*/}
+     
       {/*====== End Activity Section ======*/}
        {/*====== Start Team Section ======*/}
        <section className="team-section pt-100 pb-70">
