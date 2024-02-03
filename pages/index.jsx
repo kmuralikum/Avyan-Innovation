@@ -571,7 +571,7 @@ const Index2 = () => {
       </section>
       {/*====== End Services Section ======*/}
       {/*====== Start Activity Section ======*/}
-     
+     {/* Moved into Popular Service Section */}
       {/*====== End Activity Section ======*/}
        {/*====== Start Team Section ======*/}
        <section className="team-section pt-100 pb-70">
