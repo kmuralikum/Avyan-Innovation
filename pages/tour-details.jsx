@@ -5,11 +5,11 @@ import { placeSlider } from "@/src/sliderProps";
 import Link from "next/link";
 import { Nav, Tab } from "react-bootstrap";
 import Slider from "react-slick";
-const TourDetails = () => {
+const TourDetails = () => { 
   return (
-    <Layout extraClass={"pt-160"}>
+    <Layout  header={3} extraClass={"pt-160"}>
       {/*====== Start Place Details Section ======*/}
-      <section className="place-details-section">
+      <section className="place-details-section ">
         {/*=== Place Slider ===*/}
         <div className="place-slider-area overflow-hidden wow fadeInUp">
           <Slider {...placeSlider} className="place-slider">

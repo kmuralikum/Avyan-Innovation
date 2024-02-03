@@ -4,7 +4,7 @@ import Layout from "@/src/layout/Layout";
 import Link from "next/link";
 const Tour = () => {
   return (
-    <Layout extraClass={"pt-160"}>
+    <Layout header={3} extraClass={"pt-160"}>
       <PageBanner pageTitle={"Explore Tour Place"} />
       {/*====== Start Booking Section ======*/}
       <section className="booking-form-section pb-100">
