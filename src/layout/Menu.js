@@ -23,58 +23,24 @@ const DeskTopMenu = () => {
       <nav className="main-menu d-none d-xl-block">
         <ul>
           <li className="menu-item has-children">
-            <a href="#">
+            <a href="/">
               Home
-              <span className="dd-trigger">
-                <i className="far fa-angle-down" />
-              </span>
             </a>
-            <ul className="sub-menu">
-              <li>
-                <Link href="/">Home 01</Link>
-              </li>
-              <li>
-                <Link href="index-2">Home 02</Link>
-              </li>
-              <li>
-                <Link href="index-3">Home 03</Link>
-              </li>
-              <li>
-                <Link href="index-4">Home 04</Link>
-              </li>
-            </ul>
           </li>
-          <li className="menu-item has-children">
-            <a href="#">
-              Tours
-              <span className="dd-trigger">
-                <i className="far fa-angle-down" />
-              </span>
+          <li>
+            <a href="about">
+            <Link href="about">About Us</Link>
             </a>
-            <ul className="sub-menu">
-              <li>
-                <Link href="tour">Tours</Link>
-              </li>
-              <li>
-                <Link href="tour-details">Tours Details</Link>
-              </li>
-            </ul>
           </li>
-          <li className="menu-item has-children">
-            <a href="#">
-              Destination
-              <span className="dd-trigger">
-                <i className="far fa-angle-down" />
-              </span>
+          <li>
+            <a href="tour-details">
+            <Link href="tour-details">Industry</Link>
             </a>
-            <ul className="sub-menu">
-              <li>
-                <Link href="destination">Destination</Link>
-              </li>
-              <li>
-                <Link href="destination-details">Destination Details</Link>
-              </li>
-            </ul>
+          </li>
+          <li>
+            <a href="tour">
+            <Link href="tour">Products</Link>
+            </a>
           </li>
           <li className="menu-item has-children">
             <a href="#">
@@ -92,43 +58,17 @@ const DeskTopMenu = () => {
               </li>
             </ul>
           </li>
-          <li className="menu-item has-children">
-            <a href="#">
-              Pages
-              <span className="dd-trigger">
-                <i className="far fa-angle-down" />
-              </span>
+          <li>
+            <a href="tour">
+            <Link href="gallery">Gallery</Link>
             </a>
-            <ul className="sub-menu">
-              <li>
-                <Link href="about">About Us</Link>
-              </li>
-              <li>
-                <Link href="gallery">Our Gallery</Link>
-              </li>
-              <li>
-                <Link href="events">Our Events</Link>
-              </li>
-              <li>
-                <Link href="shop">Our Shop</Link>
-              </li>
-              <li>
-                <Link href="product-details">Product Details</Link>
-              </li>
+          </li>
+          <li className="menu-item has-children">
+            <a href="contact">
               <li>
                 <Link href="contact">Contact</Link>
               </li>
-            </ul>
-          </li>
-          <li className="menu-item search-item">
-            <div
-              className="search-btn"
-              data-bs-toggle="modal"
-              data-bs-target="#search-modal"
-              onClick={() => setSearchModal(true)}
-            >
-              <i className="far fa-search" />
-            </div>
+            </a>
           </li>
         </ul>
       </nav>
