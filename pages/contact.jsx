@@ -3,7 +3,7 @@ import PageBanner from "@/src/components/PageBanner";
 import Layout from "@/src/layout/Layout";
 const Contact = () => {
   return (
-    <Layout extraClass={"pt-160"}>
+    <Layout header={3} extraClass={"pt-160"}>
       <PageBanner pageTitle={"Contact Us"} />
       {/*====== Start Info Section ======*/}
       <section className="contact-info-section pt-100 pb-60">

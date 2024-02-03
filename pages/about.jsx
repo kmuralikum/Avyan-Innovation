@@ -6,7 +6,7 @@ import Link from "next/link";
 import Slider from "react-slick";
 const About = () => {
   return (
-    <Layout extraClass={"pt-160"}>
+    <Layout header={3} extraClass={"pt-160"}>
       <PageBanner pageTitle={"About Us"} />
       {/*====== Start Features Section ======*/}
       <section className="features-section pt-100 pb-50">

@@ -4,7 +4,7 @@ import Layout from "@/src/layout/Layout";
 import Link from "next/link";
 const BlogList = () => {
   return (
-    <Layout extraClass={"pt-160"}>
+    <Layout header={3} extraClass={"pt-160"}>
       <PageBanner pageTitle={"Blog List"} />
       {/*====== Start Blog Section ======*/}
       <section className="blog-list-section pt-100 pb-70">

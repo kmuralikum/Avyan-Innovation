@@ -2,7 +2,7 @@ import PageBanner from "@/src/components/PageBanner";
 import Layout from "@/src/layout/Layout";
 const Gallery = () => {
   return (
-    <Layout>
+    <Layout header={3}>
       <PageBanner pageTitle={"Gallery"} />
       {/*====== Start Gallery Section ======*/}
       <section className="gallery-area pt-100 pb-70">
