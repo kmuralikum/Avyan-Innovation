@@ -45,18 +45,7 @@ const Tour = () => {
                   name="text"
                 />
               </div>
-              <div className="form_group">
-                <span>Accommodations</span>
-                <select className="wide">
-                  <option data-display="Accommodations">Accommodations</option>
-                  <option value={1}>Classic Tent</option>
-                  <option value={1}>Forest Camping</option>
-                  <option value={1}>Small Trailer</option>
-                  <option value={1}>Tree House Tent</option>
-                  <option value={1}>Tent Camping</option>
-                  <option value={1}>Couple Tent</option>
-                </select>
-              </div>
+              
               <div className="form_group">
                 <button className="booking-btn">
                   Check Availability <i className="far fa-angle-double-right" />
