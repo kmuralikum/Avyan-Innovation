@@ -7,7 +7,7 @@ import { Nav, Tab } from "react-bootstrap";
 import Slider from "react-slick";
 const TourDetails = () => { 
   return (
-    <Layout  header={3} extraClass={"pt-160"}>
+    <Layout  extraClass={"pt-160"}>
       {/*====== Start Place Details Section ======*/}
       <section className="place-details-section ">
         {/*=== Place Slider ===*/}
