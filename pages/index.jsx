@@ -411,7 +411,7 @@ const Index2 = () => {
       </section>
       {/*====== End We Section ======*/}
       {/*====== Start Services Section ======*/}
-      <section className="services-section black-bg pt-100 pb-100">
+      <section className="services-section black-bg pt-60 ">
         <div className="container-fluid">
           <div className="row justify-content-center">
             <div className="col-xl-7">
