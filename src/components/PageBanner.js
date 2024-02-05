@@ -3,7 +3,7 @@ import Link from "next/link";
 const PageBanner = ({ pageTitle }) => {
   return (
     <section
-      className="page-banner overlay pt-170 pb-220 bg_cover"
+      className="page-banner overlay pt-170 pb-230 bg_cover"
       style={{ backgroundImage: "url(assets/images/bg/page-bg.jpg)" }}
     >
       <div className="container">
